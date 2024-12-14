@@ -209,7 +209,7 @@
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label for="vacancy" class="form-label">Vacancy <span class="text-danger">*</span></label>
-                                    <input type="number" min="1" placeholder="Vacancy" id="vacancy" name="vacancy" class="form-control" value="{{ old('vacancy') }}">
+                                    <input type="number" min="1" placeholder="Vacancy *weeks*" id="vacancy" name="vacancy" class="form-control" value="{{ old('vacancy') }}">
                                     @error('vacancy')
                                         <div class="text-danger mt-2">
                                            {{ $message }}
@@ -221,7 +221,7 @@
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <label for="salary" class="form-label">Salary</label>
-                                    <input type="text" placeholder="Salary" id="salary" name="salary" class="form-control" value="{{ old('salary') }}">
+                                    <input type="text" placeholder="Salary (price and currency" id="salary" name="salary " class="form-control" value="{{ old('salary') }}">
                                     @error('salary')
                                         <div class="text-danger mt-2">
                                            {{ $message }}

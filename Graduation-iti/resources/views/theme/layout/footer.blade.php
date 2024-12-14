@@ -34,12 +34,12 @@
                     </div>
                 </form>
                 <div class="mt-3">
-                    <a href="https://www.facebook.com/profile.php?id=100004491948645" class="text-light me-2"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/ahmad.sherif/" class="text-light me-2"><i class="fab fa-instagram"></i></a>
-                    <a href="https://x.com/AhmedSh33249042" class="text-light me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/Suodakuob/" class="text-light me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/2uodakuob/" class="text-light me-2"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/suodakuob" class="text-light me-2"><i class="fab fa-twitter"></i></a>
                     <a href="https://github.com/suodakuob" class="text-light"><i class="fab fa-github"></i></a>
 
-                    <a href="https://www.linkedin.com/in/ahmed-sherif-096804264" class="text-light"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/mehdi-boukadous-109210255/" class="text-light"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>

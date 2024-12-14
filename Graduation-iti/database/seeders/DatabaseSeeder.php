@@ -2,8 +2,8 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Database\Seeders\AdminUserSeeder; // Import the AdminUserSeeder
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,17 +12,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        // Call the AdminUserSeeder to seed admin users
+        $this->call(AdminUserSeeder::class);
 
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
-
-        // \App\Models\employeeclass::factory(5)->create();
-        // \App\Models\employeetype::factory(5)->create();
+        // Other seeding operations
         \App\Models\EmployeePost::factory(20)->create();
-
-
     }
 }

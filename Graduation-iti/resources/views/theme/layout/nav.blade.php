@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light custom-navbar py-3">
         <div class="container">
-            <a class="navbar-brand custom-brand" href="{{ route('home') }}">Human Resources Manager</a>
+            <a class="navbar-brand custom-brand" href="{{ route('home') }}">Job Project</a>
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
